@@ -42,3 +42,11 @@ tambah 5 warna
 - langkah 6 menambahkan subscription.cancel() ke dalam void dispose() agar bisa dibersihkan dari memory
 - langkah 8 menambahkan kondisi jika numberStreamController tidak di tutup maka angka random pada variabel myNum akan ditambahkan ke numberStream, jika numberStreamController ditutup maka lastNumber akan jadi -1
 <img src="images/p4s9.gif">
+
+## Praktikum 5
+### Soal 10
+karena stream biasa hanya bisa didengar/listen sekali dalam satu waktu
+
+### Soal 11
+itu bisa terjadi karena kita mengubah stream biasa menjadi broadcast stream (bisa didengarkan oleh lebih dari satu listener secara bersamaan)
+<img src="images/p5s11.gif">
