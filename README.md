@@ -28,3 +28,10 @@ tambah 5 warna
 - pada langkah 13 membuat method addError yang akan menambahkan/mengirim error ke variabel controller
 - langkah 14 menambahkan kondisi jika error, jika error maka angka di variabel lastNumber menjadi -1
 - langkah 15 memanggil method addError pada class numberStream;
+
+## Praktikum 3
+### Soal 8
+- langkah 1 membuat variabel StreamTransformer dengan nama transformer dan menggunakan late karena akan diinisialisasi nanti
+- langkah 2 menginisialisasi variabel transformer dengan tipe data int dan menambahkan handleData(data akan dikali 10), handleError(jika error angkanya akan jadi -1), handleDone(setelah selesai akan ditutupu)
+- langkah 3 memasukkan variabel transformer ke stream.transform()
+<img src="images/p3s8.gif">
