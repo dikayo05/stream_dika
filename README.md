@@ -23,3 +23,8 @@ tambah 5 warna
 - langkah 8 menginisialisasi variabel numberStream, numberStreamController, stream, dan membuat stream.listen yang di dalamnya akan mengisi variabel lastNumber
 - langkah 10 membuat method untuk membuat angka acak dari 0 - 9(totalnya 10 angka), dan menambahkannya ke variabel numberStream
 <img src="images/p2s6.gif">
+
+### Soal 7
+- pada langkah 13 membuat method addError yang akan menambahkan/mengirim error ke variabel controller
+- langkah 14 menambahkan kondisi jika error, jika error maka angka di variabel lastNumber menjadi -1
+- langkah 15 memanggil method addError pada class numberStream;
