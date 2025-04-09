@@ -13,3 +13,7 @@ tambah 5 warna
 
 ### Soal 4
 <img src="images/p1s4.gif">
+
+### Soal 5
+- await for akan akan melakukan looping dan menunggu sampai stream selesai sebelum lanjut ke kode berikutnya
+- listen berjalan di background jadi tidak perlu menunggu selesai untuk menjalankan kode berikutnya
