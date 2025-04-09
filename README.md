@@ -35,3 +35,10 @@ tambah 5 warna
 - langkah 2 menginisialisasi variabel transformer dengan tipe data int dan menambahkan handleData(data akan dikali 10), handleError(jika error angkanya akan jadi -1), handleDone(setelah selesai akan ditutupu)
 - langkah 3 memasukkan variabel transformer ke stream.transform()
 <img src="images/p3s8.gif">
+
+## Praktikum 4
+### Soal 9
+- langkah 2 menginisialisasi variabel subscription dengan stream.listen
+- langkah 6 menambahkan subscription.cancel() ke dalam void dispose() agar bisa dibersihkan dari memory
+- langkah 8 menambahkan kondisi jika numberStreamController tidak di tutup maka angka random pada variabel myNum akan ditambahkan ke numberStream, jika numberStreamController ditutup maka lastNumber akan jadi -1
+<img src="images/p4s9.gif">
